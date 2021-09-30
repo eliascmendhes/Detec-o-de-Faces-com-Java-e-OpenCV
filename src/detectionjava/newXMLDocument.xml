@@ -1,0 +1,24 @@
+Scale factor
+Especifica quanto o tamanho da imagem é reduzido em cada escala de imagem
+Redimensionar um rosto maior para um menor
+Mais lento se o valor for menor, demora para fazer o processamento
+
+O valor do scale factor tem que ser maior que 1, sendo o valor default é 1.1
+
+// 
+MinNeighbors
+o minNeighbors só aceita números inteiros 
+Quantos vizinhos cada retângulo candidato deve ter para mantÊ-lo 
+
+Valors muito altos podem gerar menos detecção , porém apresenta maior qualidade. 
+
+//
+Flags
+Semelhante a uma heurística
+Rejeita algumas regiões de imagens que contém muitas ou poucas bordas( que não contém o objeto procurado)
+Utilizado em cascades "antigos"
+
+//
+minSize 
+Especifica o menor objeto a ser reconhecido
+30 x 30 é o valor padrão
